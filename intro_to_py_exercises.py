@@ -32,3 +32,5 @@ print('Total cost of surface tiling is ' + str(total_cost))
 
 num_bin = 17
 print('The binary format for 17 is: ', format(num_bin, 'b'))
+
+#exercise 4
