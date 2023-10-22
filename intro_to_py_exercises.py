@@ -29,3 +29,6 @@ length_sq = 5.5
 area_sq = length_sq**2
 total_cost = area_sq * 500
 print('Total cost of surface tiling is ' + str(total_cost))
+
+num_bin = 17
+print('The binary format for 17 is: ', format(num_bin, 'b'))
