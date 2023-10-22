@@ -18,3 +18,8 @@ length = 92
 width = 48.8
 area = length * width
 print('area is ' + str(area))
+
+money_given = 20
+money_required = 9 * 1.49
+money_back = money_given - money_required
+print('My change is ' + str(money_back))
