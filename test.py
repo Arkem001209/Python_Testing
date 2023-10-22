@@ -23,3 +23,8 @@ money_given = 20
 money_required = 9 * 1.49
 money_back = money_given - money_required
 print('My change is ' + str(money_back))
+
+length_sq = 5.5
+area_sq = length_sq**2
+total_cost = area_sq * 500
+print('Total cost of surface tiling is ' + str(total_cost))
