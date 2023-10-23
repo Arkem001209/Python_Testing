@@ -18,7 +18,7 @@ print('My full name is ' + first_name + ' ' + middle_name + ' ' + last_name)
 length = 92
 width = 48.8
 area = length * width
-print('area is ' + str(area))
+print('area is ' + str(round(area, 2)))
 
 money_given = 20
 money_required = 9 * 1.49
