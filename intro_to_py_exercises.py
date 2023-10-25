@@ -13,7 +13,7 @@ middle_name = 'Myles Douglas'
 last_name = 'Arkell'
 print('My full name is ' + first_name + ' ' + middle_name + ' ' + last_name)
 
-#exercise 3
+#exercise 3 - ints
 
 length = 92
 width = 48.8
@@ -33,7 +33,7 @@ print('Total cost of surface tiling is ' + str(total_cost))
 num_bin = 17
 print('The binary format for 17 is: ', format(num_bin, 'b'))
 
-#exercise 4
+#exercise 4 - strings
 street = '10 Finch Lane'
 city = 'London'
 country = 'United Kingdom'
@@ -53,3 +53,16 @@ print(f"I eat {numberVeg} veggies and {numberFruit} fruits daily")
 s = 'maine 200 banana khaye'
 s=s.replace("banana", "samosa").replace("200", "10")
 print("Replacing parts of string: "+s)
+
+#Exercise 5 - lists
+
+expenses = [2200, 2350, 2600, 2130, 2190]
+differenceJanuaryFebruary = expenses[1] - expenses[0]
+print("I spent " + str(differenceJanuaryFebruary) + " extra in February")
+totalFirstQuarter = sum(expenses[:3])
+print("Total expenses in the first quarter: " + str(totalFirstQuarter))
+print("Did I spend 2000 in any month?", 2000 in expenses)
+expenses.append(1980) #concatenate list using append
+print(expenses)
+expenses[3] = expenses[3] - 200 #edit number in list
+print(expenses)
