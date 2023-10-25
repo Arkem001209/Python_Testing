@@ -49,3 +49,7 @@ print(exercise2String[-3:]) #slicing using negative index
 numberFruit = 5
 numberVeg = 6
 print(f"I eat {numberVeg} veggies and {numberFruit} fruits daily")
+
+s = 'maine 200 banana khaye'
+s=s.replace("banana", "samosa").replace("200", "10")
+print("Replacing parts of string: "+s)
