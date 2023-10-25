@@ -45,3 +45,7 @@ print("address using f string: "+address2)
 exercise2String = "Earth revolves around the sun"
 print(exercise2String[6:14]) #Slicing 1 word
 print(exercise2String[-3:]) #slicing using negative index
+
+numberFruit = 5
+numberVeg = 6
+print(f"I eat {numberVeg} veggies and {numberFruit} fruits daily")
