@@ -63,6 +63,18 @@ totalFirstQuarter = sum(expenses[:3])
 print("Total expenses in the first quarter: " + str(totalFirstQuarter))
 print("Did I spend 2000 in any month?", 2000 in expenses)
 expenses.append(1980) #concatenate list using append
-print(expenses)
+#print(expenses)
 expenses[3] = expenses[3] - 200 #edit number in list
-print(expenses)
+#print(expenses)
+
+heros=['spider man','thor','hulk','iron man','captain america']
+print("The length of my list is", len(heros))
+heros.append('black panther')
+print(heros)
+heros.remove('black panther')
+heros.insert(3, 'black panther')
+print(heros)
+heros[1:3] = ['doctor strange']
+print(heros)
+heros.sort(reverse=False)
+print(heros)
