@@ -41,3 +41,7 @@ full_address = street+ '\n' + city + '\n' + country
 print(full_address)
 address2 = f'{street}\n{city}\n{country}'
 print("address using f string: "+address2)
+
+exercise2String = "Earth revolves around the sun"
+print(exercise2String[6:14]) #Slicing 1 word
+print(exercise2String[-3:]) #slicing using negative index
