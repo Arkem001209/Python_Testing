@@ -34,3 +34,10 @@ num_bin = 17
 print('The binary format for 17 is: ', format(num_bin, 'b'))
 
 #exercise 4
+street = '10 Finch Lane'
+city = 'London'
+country = 'United Kingdom'
+full_address = street+ '\n' + city + '\n' + country
+print(full_address)
+address2 = f'{street}\n{city}\n{country}'
+print("address using f string: "+address2)
